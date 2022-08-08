@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fafafa;
+    font-family: "Roboto","sans-serif";
+}
+
+#cabecalho{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 54px;
+    background-color: #fff;
+    border: 1px solid #DBDBDB;
+    margin-bottom: 34px;
+
+}
+#positionFixed{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 54px;
+    background-color: #fff;
+    border: 1px solid #DBDBDB;
+    position: fixed;
+    z-index: 3;
+}
+
+#containerCabecalho{
+    width: 935px;
+    display: flex;
+    align-items: center;
+    position:fixed;
+
+}
+
+#containerCabecalho  #logoInsta{
+    padding-right: 10px;
+    margin-right: 10px;
+    border-right: 1px solid #DBDBDB;
+}
+
+#containerCabecalho input{
+    background-color: #FAFAFA;
+    border: 1px solid #DBDBDB;
+    text-align:center;
+    width: 215px;
+    height: 28px;
+    border-radius: 3px;
+    top:13px;
+    left:43%;
+    font-weight: 400;
+    font-size: 12px;
+    color:#979797;
+    margin: 0 auto;
+}
+
+#containerCabecalho .atalhos img{
+    margin-left:16px;
+}
+
+#corpo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#containerCorpo{
+    width: 935px;
+    display: flex;
+    position:relative;
+    flex-direction: row-reverse;
+}
+#containerPrincipal{
+    width: 614px;
+    margin-right: auto;
+}
+
+#carrosseul{
+    width: 100%;
+    height: 118px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    position:relative;
+
+}
+.seta{
+    position: absolute;
+    right:10px;
+    z-index: 2;
+    box-shadow: 0px 0px 2px black;
+    border-radius: 40px;
+
+}
+
+.perfil{
+    margin-left:23px;
+    width: 56px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.perfil .bordaStories{
+    margin-bottom: -61px;
+    height: 66px;
+    /* position: absolute; */
+    z-index: 0;
+}
+
+.perfil .imgPerfil{
+    height: 56px;
+    z-index: 1;
+}
+.perfil p{
+    margin-top:6px;
+    font-size:12px;
+    font-weight: 400;
+}
+
+
+
+
+
+#containerPosts{
+    width: 614px;
+}
+
+.postIndividual{
+    width: 100%;
+    background-color: #fff;
+    border-radius: 3px;
+    border: 1px solid #dbdbdb;
+    margin-top: 60px;
+}
+#post1{
+    margin-top: 24px;
+}
+
+.quemPostou{
+    display: flex;
+    align-items: center;
+    padding:14px;
+}
+
+.imgPerfilPost{
+    height:32px;
+    width:32px;
+}
+.quemPostou p{
+    margin-left: 10px;
+    font-size:14px;
+    font-weight: 500;
+}
+
+
+.imgPost{
+    overflow: hidden;
+}
+.opcoes{
+    margin-left:auto;
+}
+
+
+.descricaoPost{
+    width: 100%;
+    padding:10px;
+    
+}
+.iconsPost{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.imgIconsPost{
+    display: flex;
+   margin-right: 10px;
+}
+.bandeira{
+    margin-left:auto;
+    margin-right: 0px;
+}
+
+.curtidoPor{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.curtidoPor img{
+    height:20px;
+    width: 20px;
+    margin-right: 10px;
+}
+
+.curtidoPor b{
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#slidebar{
+    width: 293px;
+   margin:25px 0 0 25px;
+    position:fixed;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#catana{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.nomeEOpcao{
+    margin-left: 12px;
+}
+
+.nomeEOpcao p{
+    font-weight: 500;
+    font-size:14px;
+}
+
+.nomeEOpcao .opaco{
+    margin-top:3px;
+    color: #8E8E8E;
+    font-weight: 300;
+}
+
+.verTudo{
+    margin-top:20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.verTudo p{
+    color:#8E8E8E;
+    font-weight: 500;
+    font-size:14px;
+}
+
+.verTudo span{
+    font-size:12px;
+    color:black;
+}
+
+
+.perfilSugerido{
+    margin-top:15px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.seguir{
+    margin-left:auto;
+    color:#139EF2;
+    font-size:12px;
+    font-weight: 500;
+}
+
+#links{
+    margin-top:30px;
+    font-weight: 400;
+    color:#8E8E8E;
+    font-size:11px;
+    gap:20px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 935px){
+
+#slidebar{
+    display: none;
+}
+
+#containerCabecalho{
+    width: 90%;
+}
+#containerCorpo{
+    width: 595px;
+    display: flex;
+    position:relative;
+    flex-direction: row-reverse;
+}
+#containerPrincipal{
+    width: 614px;
+    margin-right: 0;
+}
+#containerPosts{
+    width: 614px;
+}
+}
+
+
+#rodape{
+    width: 100%;
+    height: 54px;
+    background-color: #fff;
+    position:fixed;
+    bottom:0;
+    display:none;
+}
+#containerRodape{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+@media only screen and (max-width: 614px){
+
+.sumir{
+    display: none;
+}
+.instagram{
+    display: none;
+    background-color: red;
+}
+
+#containerCabecalho{
+    justify-content: space-between;
+}
+#containerCabecalho  #logoInsta{
+    padding-right: 0;
+    margin-right: 0;
+    border-right: 0px solid #DBDBDB;
+}
+#containerCorpo{
+    width: 100%;
+}
+#containerPosts{
+    width: 100%;
+}
+#containerPrincipal{
+    width: 100%;
+}
+
+.imgPost img{
+    width: 100%;
+}
+.imgPost video{
+    width: 100%;
+}
+
+#rodape{
+    display:flex;
+}
+#carrosseul{
+    background-color: #fafafa;
+    border: none;
+}
+.seta{
+    display: none;
+}
+}
